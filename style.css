@@ -1,0 +1,166 @@
+/*page details START*/
+
+.HTML{
+    height: 100%;
+
+}
+
+.Home{
+    background-color: rgb(27, 26, 26);;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0%;
+    margin-top: 0%;
+
+
+
+
+}
+
+.header{
+    position: fixed;
+    color:rgb(5, 5, 182);
+    width: 1340px;
+    height: 100%;
+    z-index: 3;
+    top: 0px;
+    left: 2px;
+}
+
+.footer{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+
+}
+
+.navContainer{
+    height: auto;
+    width: 100%;
+    box-shadow:    5px 5px white;
+    background-color: rgb(27, 26, 26);
+    border-radius: 15px;
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.navObject{
+    text-decoration: none;
+    width: 100;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.5ms;
+    color: white;
+}
+
+.navObjectBarrier{
+    color: white;
+    
+}
+
+.navObject:hover{
+    background-color:white ;
+    color: black;
+    border-radius: 100px;
+    
+}
+
+
+
+/*Page Details END*/
+
+
+/*Hero Image Starts*/
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG-3143.jpg");
+  padding-top: 20%;
+  
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/*Hero Image Ends*/
+
+.HelloContainer{
+    padding-left: 30px;
+
+}
+
+.HelloFlex{
+    display: flex;
+    text-align: center;
+    background: black;
+    color: white;    
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:   -10px 10px 5px  white;
+    min-width: 300px;
+
+
+}
+
+.HelloIntro p {
+    text-align: center;
+   
+
+
+}
+
+.name{
+    color:orange ;
+ 
+}
+
+
+.welcome{
+    position: relative;
+    top: 100px;
+    left: 500px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    animation-name: welcome;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    text-shadow: -10px 10px black;
+
+}
