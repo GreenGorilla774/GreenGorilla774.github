@@ -5,7 +5,7 @@
 
 }
 
-.Home{
+.Page{
     background-color: rgb(27, 26, 26);;
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -158,9 +158,187 @@ body, html {
     color: white;
     font-weight: bold;
     font-size: 30px;
-    animation-name: welcome;
-    animation-duration: 1s;
-    animation-timing-function: linear;
+
     text-shadow: -10px 10px black;
 
 }
+
+/*Contact Me START*/
+
+.contactContainer{
+    padding-left: 30px;
+
+}
+
+.contactFlex1{
+    display: flex;
+    text-align: center;
+    background: rgb(248, 240, 228);
+    color: black;    
+    font-size: 30px;
+    margin-top: 200px;
+
+    align-items: center;
+    justify-content: space-evenly;
+    border: ridge 10px rgb(36, 34, 34);
+    min-width: 300px;
+    width: 1240px;
+    position: relative;
+
+
+}
+
+.contactFlex2{
+    display: flex;
+    text-align: center;
+    background: rgb(248, 240, 228);
+    color: black;    
+    font-size: 30px;
+    margin-top: 50px;
+
+    align-items: center;
+    justify-content: space-evenly;
+    border: ridge 10px rgb(36, 34, 34) ;
+    min-width: 300px;
+    width: 1240px;
+    position: relative;
+
+
+}
+
+.contactFlex3{
+    display: flex;
+    text-align: center;
+    background: rgb(248, 240, 228);
+    color: black;    
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: ridge 10px rgb(36, 34, 34) ;
+    min-width: 300px;
+    width: 1240px;
+    position: relative;
+
+
+}
+
+.contactFlex4{
+    display: flex;
+    text-align: center;
+    background: rgb(248, 240, 228);
+    color: black;    
+    font-size: 30px;
+    margin-top: 50px;
+
+    align-items: center;
+    justify-content: space-evenly;
+    border: ridge 10px rgb(36, 34, 34);
+    min-width: 300px;
+    width: 1240px;
+    position: relative;
+
+
+}
+
+
+.contactMe p {
+    text-align: center;
+}
+
+.contact1
+.contact2
+.contact3
+.contact4
+{
+    color:orange ;
+ 
+}
+
+
+
+
+.contactMeT{
+    position: relative;
+    top: 100px;
+    left: 450px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: -10px 10px black;
+
+}
+
+.ContactMeDescription{
+        position: relative;
+    top: 100px;
+    left: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: -7px 7px black;
+}
+
+/*Contact Me END*/
+
+/*Under Construction Start*/
+
+
+.UC{
+    position: relative;
+    top: 100px;
+    left: 350px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: -10px 10px black;
+
+}
+
+.UC-Image{
+
+    padding-top: 10%;
+    padding-left: 40%;
+  
+
+    height: 10%;
+  
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+
+.UC-Container{
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+
+.UC-Flex{
+    display: flex;
+    text-align: center;
+    background: black;
+    color: white;    
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:   -10px 10px 5px  white;
+    min-width: 300px;
+
+
+}
+
+.UC-Explination p {
+    text-align: center;
+
+
+}
+/*Under Construction End*/
