@@ -18,7 +18,7 @@
 }
 
 .header{
-    position: center;
+    position: fixed;
     color:rgb(5, 5, 182);
     width: 1340px;
     height: 100%;
@@ -37,7 +37,6 @@
 }
 
 .navContainer{
-    position: center;
     height: auto;
     width: 100%;
     box-shadow:    5px 5px white;
