@@ -285,10 +285,21 @@ body, html {
 /*Under Construction Start*/
 
 
-.UC{
+.MPUC{
     position: relative;
     top: 100px;
-    left: 350px;
+    left: 120px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: -10px 10px black;
+
+}
+
+.AMUC{
+    position: relative;
+    top: 100px;
+    left: 150px;
     color: white;
     font-weight: bold;
     font-size: 30px;
